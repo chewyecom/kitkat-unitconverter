@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chewy.unitconverter.UnitConverterActivity" >
+
+    <item
+        android:id="@+id/action_grid"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_grid"/>
+    <item
+        android:id="@+id/action_linear"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_linear"/>
+</menu>

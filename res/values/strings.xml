@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UnitConverter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_grid">Display Grid</string>
+    <string name="action_linear">Display Linear</string>
+    
+    <string name="item_inch_cm">Convert Inch to Cm</string>
+    <string name="item_fahrenheit_celsius">Convert Fahrenheit to Celsius</string>
+    <string name="item_km_mi">Convert Km to Mile</string>
+    <string name="item_mtr_ft">Convert Meter to Feet</string>
+    
+    <string name="item_cm_inch">Convert Cm to Inch</string>
+    <string name="item_celsius_fahrenheit">Convert Celsius to Fahrenheit</string>
+    <string name="item_mi_km">Convert Mile to Km</string>
+    <string name="item_ft_mtr">Convert Feet to Meter</string>
+</resources>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chewy.unitconverter.ConverterChoicesActivity" >
+
+	 <TextView
+        android:id="@+id/display_selection"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+	/>  
+    	 <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        />
+	 <TextView
+        android:id="@+id/item"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:padding="10dip"
+	/>  
+</LinearLayout>

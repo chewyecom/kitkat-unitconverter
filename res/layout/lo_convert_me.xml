@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chewy.unitconverter.ConverterActivity" >
+
+	 <TextView
+        android:id="@+id/text_convert_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+	/>  
+ 	 <TextView
+        android:id="@+id/label_convert_From"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="From: "/>
+ 	 <EditText
+        android:id="@+id/edit_convert_from"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:ems="5"
+		android:padding="10dip"
+	/>  
+ 	 <TextView
+        android:id="@+id/label_convert_to"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="to: "
+	/>  
+	 <TextView
+        android:id="@+id/text_convert_to"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+	/>  
+		<Button
+	    android:id="@+id/button_convert"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Convert Me !!!"
+	    />	 
+		<Button
+	    android:id="@+id/button_reverse"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Reverse Conversion !!!"
+	    />	 
+		<Button
+	    android:id="@+id/button_save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Convert and Save History !!!"
+	    />
+		<Button
+	    android:id="@+id/button_clear"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Clear History !!!"
+	    />
+	 <TextView
+        android:id="@+id/text_message"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+	/>  			
+</LinearLayout>
